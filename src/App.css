@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'CascadiaCode';
+        src: url('../public/assets/fonts/CascadiaCode.woff2') format("woff");
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+body {
+    position: relative;
+    font-family: 'CascadiaCode';
+    background: url('../public/assets/background-2.png'), url('../public/assets/background-1.png');
+    background-size: 100% 479px, cover;
+    background-position: top left, center center;
+    background-repeat: no-repeat
+}
+
+#stacks div {
+    width: 60px;
+    height: 60px;
+    border-radius: 19px;
+    background-color: #FFF;
+    display: inline-flex;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#stacks img {
+    align-self: center;
+    margin: 0 auto;
+}
+
+.coffee-context {
+    background-image: url('../public/assets/coffee-context.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+/* Hamburger menu */
+.hamburger {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 28px;
+    height: 2px;
+    border-radius: 2px;
+    background: #FFF;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+
+.hamburger-middle {
+    width: 19px;
+    transform: translateY(7px);
+}
+
+.hamburger-bottom {
+    transform: translateY(14px);
+}
+
+.open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+}
+
+.open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+    display: none;
+}
+
+.open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
