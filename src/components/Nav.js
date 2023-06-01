@@ -17,6 +17,7 @@ const Nav = () => {
             <div className="hidden text-base space-x-6 text-mutedWhite font-light lg:flex">
                 <NavLink to="/about" className={({isActive}) => isActive ? "text-customWhite" : "hover:text-customWhite"}>About</NavLink>
                 <NavLink to="/projects" className={({isActive}) => isActive ? "text-customWhite" : "hover:text-customWhite"}>Projects</NavLink>
+                <NavLink to="/certificates" className={({isActive}) => isActive ? "text-customWhite" : "hover:text-customWhite"}>Certificates</NavLink>
                 <NavLink to="/contact" className={({isActive}) => isActive ? "text-customWhite" : "hover:text-customWhite"}>Contact</NavLink>
             </div>
 
