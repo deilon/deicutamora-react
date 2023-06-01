@@ -14,9 +14,9 @@ const Home = () => {
     <footer className="mt-auto">
         <div className="container mx-auto px-6 py-12">
             <div className="text-sm space-x-6 md:flex">
-                <a href="#" className="hover:text-customWhite">About</a>
-                <a href="#" className="hover:text-customWhite">Projects</a>
-                <a href="#" className="hover:text-customWhite">Contact</a>
+                <a href="/about" className="hover:text-customWhite">About</a>
+                <a href="/projects" className="hover:text-customWhite">Projects</a>
+                <a href="/contact" className="hover:text-customWhite">Contact</a>
             </div>
             <p className="text-sm text-mutedWhite">&#169; 2023 Deilon Cutamora. All Rights Reserved.</p>
         </div>
