@@ -18,10 +18,10 @@ const Contact = () => {
             <div className="w-full lg:px-6 lg:w-8/12">
                 <h1 className="section-title text-xl text-deepBlue font-semibold mb-3">Social links</h1>
                 <div className="coffee-context flex flex-col space-y-3">
-                    <a href="#" className="text-lg underline">Linkedin</a>
-                    <a href="#" className="text-lg underline">Github</a>
-                    <a href="#" className="text-lg underline">Facebook</a>
-                    <a href="#" className="text-lg underline">Twitter</a>
+                    <a href="https://www.linkedin.com/in/deilon-cutamora-b8a34a279/" target="_blank" className="text-lg underline">Linkedin</a>
+                    <a href="https://www.github.com/deilon/" target="_blank" className="text-lg underline">Github</a>
+                    <a href="https://www.facebook.com/profile.php?id=100083125025809" target="_blank" className="text-lg underline">Facebook</a>
+                    <a href="https://www.twitter.com/deiloncutamora" target="_blank" className="text-lg underline">Twitter</a>
                 </div>
             </div>
         </div>
