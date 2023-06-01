@@ -11,7 +11,7 @@ const about = () => {
             </div>
             <div className="w-full lg:px-0 lg:w-8/12">
                 <h1 className="section-title text-xl text-deepBlue font-semibold mb-3">Full Stack Software Developer</h1>
-                <p className="text-base">Based in Cavite Philippines. Adept in all stages of advanced Web Development. Knowledgeable in user interface, testing and debugging processes. Bringing forth expertise in design, installation and maintenance of web systems. Equipped with a diverse and promising skill sets. Proficient in assortment of technologies including PHP/Laravel, Angular, React and NodeJS.</p>
+                <p className="text-base">With a strong foundation in PHP/Laravel, React, NodeJS, and Angular, I am a versatile web developer ready to embark on new challenges. I possess comprehensive knowledge and hands-on experience in crafting dynamic and efficient web applications. My expertise extends to developing robust back-end solutions using PHP/Laravel and NodeJS, while my proficiency in front-end technologies such as React and Angular enables me to create captivating user interfaces and seamless user experiences. With a keen eye for detail and a passion for clean, maintainable code, I am committed to delivering high-quality solutions that exceed expectations.</p>
                 <a href="#" className="inline-block mt-3 text-mutedWhite hover:text-customWhite">View Resume <img src="../assets/resume-icon.svg" className="inline-block"></img></a>
             </div>
         </div>
@@ -20,7 +20,7 @@ const about = () => {
             <img src="../assets/me.png" className="w-1/2 mx-auto mb-5"></img>
             <div className="mt-10">
                 <h1 className="section-title text-center text-xl text-deepBlue font-semibold mb-3">Full Stack Software Developer</h1>
-                <p className="text-base">Based in Cavite Philippines. Adept in all stages of advanced Web Development. Knowledgeable in user interface, testing and debugging processes. Bringing forth expertise in design, installation and maintenance of web systems. Equipped with a diverse and promising skill sets. Proficient in assortment of technologies including PHP/Laravel, Angular, React and NodeJS.</p>
+                <p className="text-base">With a strong foundation in PHP/Laravel, React, NodeJS, and Angular, I am a versatile web developer ready to embark on new challenges. I possess comprehensive knowledge and hands-on experience in crafting dynamic and efficient web applications. My expertise extends to developing robust back-end solutions using PHP/Laravel and NodeJS, while my proficiency in front-end technologies such as React and Angular enables me to create captivating user interfaces and seamless user experiences. With a keen eye for detail and a passion for clean, maintainable code, I am committed to delivering high-quality solutions that exceed expectations.</p>
                 <a href="#" className="inline-block mt-3 text-mutedWhite hover:text-customWhite">View Resume <img src="../assets/resume-icon.svg" className="inline-block"></img></a>
             </div>
         </div>
@@ -53,22 +53,38 @@ const about = () => {
             <div className="w-full lg:w-8/12 lg:mx-auto">
                 <h1 className="section-title text-xl text-deepBlue font-semibold mb-3">Testimonials</h1>
                 <div className="testimonial-item mb-24">
-                    <p className="text-base mb-4">"I had the pleasure of working with Deilon Cutamora during their time at our bootcamp, and I was impressed with their dedication to learning and their willingness to take on challenging projects. They were able to quickly pick up new technologies and apply them to real-world problems. I have no doubt that Deilon will be a successful full stack developer."</p>
+                    <p className="text-base mb-4">"I had the pleasure of working with Deilon Cutamora during their time at our bootcamp, and I was impressed with 
+                        their dedication to learning and their willingness to take on challenging projects. They were able to quickly pick up new technologies and 
+                        apply them to real-world problems. I have no doubt that Deilon will be a successful full stack developer."
+                    </p>
                     <span className="block text-end text-lg">Sir Alfren Cabuquit</span>
                     <span className="block text-end text-sm text-mutedWhite">Bootcamp Instructor, Software developer</span>
                 </div>
                 <div className="testimonial-item mb-24">
-                    <p className="text-base mb-4">"I had the pleasure of working with Deilon Cutamora during their time at our bootcamp, and I was impressed with their dedication to learning and their willingness to take on challenging projects. They were able to quickly pick up new technologies and apply them to real-world problems. I have no doubt that Deilon will be a successful full stack developer."</p>
+                    <p className="text-base mb-4">"It's been inspiring to see Deilon master PHP/Laravel, React, NodeJS, and Angular with such dedication and passion. 
+                        Despite not having had the opportunity to work together professionally, I've had the privilege of seeing his projects firsthand, 
+                        has an innate talent for crafting dynamic web applications and creating seamless user experiences."
+                    </p>
                     <span className="block text-end text-lg">Jonathan Lazar</span>
                     <span className="block text-end text-sm text-mutedWhite">Wishland Java Developer</span>
                 </div>
                 <div className="testimonial-item mb-24">
-                    <p className="text-base mb-4">"I had the pleasure of working with Deilon Cutamora during their time at our bootcamp, and I was impressed with their dedication to learning and their willingness to take on challenging projects. They were able to quickly pick up new technologies and apply them to real-world problems. I have no doubt that Deilon will be a successful full stack developer."</p>
+                    <p className="text-base mb-4">"Throughout our bootcamp journey, I had the pleasure of witnessing Deilon's growth as a web developer. 
+                        His knowledge in PHP/Laravel, React, NodeJS is truly remarkable. His dedication to mastering these technologies 
+                        and his ability to apply them in real-world projects was impressive. He consistently brought fresh ideas to the table and demonstrated 
+                        strong problem-solving skills. It was a privilege to collaborate with Deilon, and I have no doubt that he will continue to thrive 
+                        in his future endeavors."
+                    </p>
                     <span className="block text-end text-lg">Charles Heculi</span>
                     <span className="block text-end text-sm text-mutedWhite">Fellow Bootcampers, Developer</span>
                 </div>
                 <div className="testimonial-item mb-24">
-                    <p className="text-base mb-4">"I had the pleasure of working with Deilon Cutamora during their time at our bootcamp, and I was impressed with their dedication to learning and their willingness to take on challenging projects. They were able to quickly pick up new technologies and apply them to real-world problems. I have no doubt that Deilon will be a successful full stack developer."</p>
+                    <p className="text-base mb-4">"Deilon was an invaluable team member during our bootcamp. His proficiency in PHP/Laravel, React, NodeJS played 
+                        a vital role in the success of our group projects. Deilon was always ready to lend a helping hand, offering insightful solutions and 
+                        contributing to the overall development process. His strong work ethic and collaborative spirit made our team dynamic and efficient. 
+                        I'm grateful to have had Deilon as a fellow bootcamper, and I'm confident that his skills and determination will take him far in his 
+                        web development career"
+                    </p>
                     <span className="block text-end text-lg">Bryle Gregorio</span>
                     <span className="block text-end text-sm text-mutedWhite">Fellow Bootcampers, Developer</span>
                 </div>

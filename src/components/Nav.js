@@ -38,6 +38,7 @@ const Nav = () => {
                 <a href="/" className="hover:text-customWhite">Home</a>
                 <a href="/about" className="hover:text-customWhite">About</a>
                 <a href="/projects" className="hover:text-customWhite">Projects</a>
+                <a href="/certificates" className="hover:text-customWhite">Certificates</a>
                 <a href="/contact" className="hover:text-customWhite">Contact</a>
             </div>
         </div>
