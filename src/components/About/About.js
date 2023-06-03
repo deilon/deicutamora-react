@@ -12,7 +12,7 @@ const about = () => {
             <div className="w-full lg:px-0 lg:w-8/12">
                 <h1 className="section-title text-xl text-deepBlue font-semibold mb-3">Full Stack Software Developer</h1>
                 <p className="text-base">With a strong foundation in PHP/Laravel, React, NodeJS, and Angular, I am a versatile web developer ready to embark on new challenges. I possess comprehensive knowledge and hands-on experience in crafting dynamic and efficient web applications. My expertise extends to developing robust back-end solutions using PHP/Laravel and NodeJS, while my proficiency in front-end technologies such as React and Angular enables me to create captivating user interfaces and seamless user experiences. With a keen eye for detail and a passion for clean, maintainable code, I am committed to delivering high-quality solutions that exceed expectations.</p>
-                <a href="#" className="inline-block mt-3 text-mutedWhite hover:text-customWhite">View Resume <img src="../assets/resume-icon.svg" className="inline-block"></img></a>
+                <a href="/DeilonCutamora_CV.pdf" className="inline-block mt-3 text-mutedWhite hover:text-customWhite">View Resume <img src="../assets/resume-icon.svg" className="inline-block"></img></a>
             </div>
         </div>
         {/*  Small devices */}
