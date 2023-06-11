@@ -11,6 +11,13 @@ const Certificates = () => {
                     <img src="assets/certificates/deilon5star.png" className="mb-5 w-full"></img>
                 </div>
             </div>
+            {/* KodeGO Cert of Completion */}
+            <div className="container mx-auto pt-12 py-5 px-6">
+                <div className="w-full mb-15 lg:w-5/12">
+                    <h1 className="text-xl text-deepBlue mb-5 font-semibold">KodeGO award</h1>
+                    <img src="assets/certificates/cert_completion.jpg" className="mb-5 w-full"></img>
+                </div>
+            </div>
             {/* ICT week participation */}
             <div className="container mx-auto pt-12 py-5 px-6">
                 <div className="w-full mb-15 lg:w-5/12">
